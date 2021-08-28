@@ -1,0 +1,101 @@
+body {
+    background-color: papayawhip;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.vertical-margin {
+    margin-bottom: 20px;
+}
+
+.radio-div {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.pointer-cursor:hover {
+    cursor: pointer;
+}
+
+form {
+    border-width: 1px;
+    border-color: rgb(165, 162, 162);
+    border-radius: 10px;
+    border-style: solid;
+    background-color: white;
+    width: 80%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+
+input:focus {
+    border-style: solid;
+    border-width: 3px;
+    border-color: yellow;
+}
+
+#check-all-that-apply {
+    position: relative;
+    top: -20px;
+    margin-bottom: -0px;
+}
+
+#education-label {
+    margin-left: 10px;
+}
+
+.essay-div {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#attach-files {
+    background-color: red;
+    color: white;
+    height: 1.5em;
+    width: 6em;
+    cursor: pointer;
+    font-size: 20px;
+    border-width: 0px;
+}
+
+#attach-files:hover {
+    background-color: rgb(255, 70, 147);
+}
+
+#submit {
+    background-color: red;
+    color: white;
+    height: 2em;
+    width: 13em;
+    cursor: pointer;
+    font-size: 20px;
+    border-width: 0px;
+}
+
+.center {
+    margin-top: 20px;
+    display: flex; 
+    justify-content: center;
+}

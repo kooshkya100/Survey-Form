@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form</title>
+        <link href='styles/style.css' rel='stylesheet'>
+    </head>
+    <body>
+        <form>
+            <h1 class='center-text'>Application For Permission To Date My Daughter</h1>
+            <p><strong>NOTE:</strong> Application should be filled at least 21 days prior to date.</p>
+
+            <fieldset>
+                <legend>Personal Details</legend>
+                <div class='vertical-margin'>
+                    <label for='name'>Name:</label>
+                    <input type="text" name='name' id='name' placeholder='Enter name here' required>
+                </div>
+                <div class='vertical-margin'>
+                    <label for='email'>Email:</label>
+                    <input id='email' name='email' type='text' placeholder='Enter email here' required>
+                </div>
+                <div class='vertical-margin'>
+                    <label for='address'>Address:</label>
+                    <input id='address' name='address' type='text' placeholder='Enter address here' required>
+                </div>
+                <div class='vertical-margin'>
+                    <label for='number'>Number:</label>
+                    <input id='number' name='number' type='number' placeholder='Enter number here' required>
+                </div>
+                <div class='vertical-margin'>
+                    <label for='IQ'>IQ:</label>
+                    <input id='IQ' name='IQ' type='number' placeholder='Enter IQ here' required>
+                </div>
+                <div class='vertical-margin'>Gender:
+                    <div>
+                        <input type='radio' name='gender' value='male' id='male' checked>
+                        <label for='male>'>Male</label>
+                    </div>
+                    <div>
+                    <input type='radio' value='female' name='gender' id='female'>
+                    <label for='female'>Female</label>
+                    </div>
+                    <div>
+                        <input type='radio' id='other' name='gender' value='other'>
+                        <label for='other'>Other</label>
+                    </div>
+                </div>
+                <div>
+                    <label for='date'>Date of Proposed Outing:</label>
+                    <input type='date' name='date' id='date' required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <p id='check-all-that-apply'>Check All That Apply:</p>
+                <div>
+                    <input type='checkbox' id='tattoos' value='tattoos' name='red-flags'>
+                    <label for='tattoos'>I have tattoos and/or piercings</label>
+                </div>
+                <div>
+                    <input type='checkbox' id='older' name='red-flags' value='older'>
+                    <label for='older'>I am more than 2 years older than my daughter</label>
+                </div>
+                <div>
+                    <input type='checkbox' id='van' name='red-flags' value='van'>
+                    <label for='van'>I own a panel van or V8 ute</label>
+                </div>
+                <div>
+                    <input type='checkbox' id='work' name='red-flags' value='work' checked>
+                    <label for='work'>I work full-time</label>
+                </div>
+                <div>
+                    <input type='checkbox' name='red-flags' id='rich' value='rich' checked>
+                    <label for='rich'>My parents are rich</label>
+                </div>
+                <div>
+                    <input type='checkbox' name='red-flags' id='public-location' value='public-location' checked>
+                    <label for='public-location'>Is the date at a well lit public location</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label for='politics'>Political Persuasion:</label>
+                <select id='politics'>
+                    <option value='right-wing'>Right Wing</option>
+                    <option value='left-wing'>Left Wing</option>
+                    <option value='conservative'>Conservative</option>
+                    <option value='nazi'>Nazi</option>
+                </select>
+                <label for='education' id='education-label'>Education Level Completed:</label>
+                    <select id='education'>
+                        <option value='university'>University</option>
+                        <option value='college'>College</option>
+                        <option value='high-school'>High School</option>
+                        <option value='none'>None</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+                <legend>Essay Section</legend>
+                <div class='essay-div'>
+                    <label for='motive'>In 50 words or more explain why you want to date my daughter:</label><br>
+                    <textarea id='motive' name='motive' rows=4 cols=50 placeholder='Enter text here'></textarea>
+                </div>
+                <div class='essay-div'>
+                    <label for='ref'>Please upload contact details for 2 references</label><br>
+                    <textarea id='ref' name='ref' rows=4 cols=50 placeholder='Enter text here'></textarea>
+                </div>
+                <div>Upload Police Clearance Certificate, Bank Statement and Medical Certifiates here:  <button id='attach-files'>Attach Files</button></div>
+            </fieldset>
+        <div class='center'>
+            <button type='submit' id='submit'>Send Your Application</button>
+        </div>
+        </form>
+        <footer>Recreated by <a href='https://github.com/kooshkya100' target='_blank'>Amir Kooshky</a> based on the work of <a href='https://codepen.io/gregg50/pen/QWwOVKV' target='_blank'>Gregg</a></footer>
+    </body>
+</html>
